@@ -16,12 +16,9 @@
 #include <WinIoCtl.h>
 //#include <stdio.h>
 
-#define MAX_THREADS 26
-
 #pragma comment(lib,"Winmm")
-#pragma comment(lib,"Kernel32")
-#pragma comment(lib,"User32")
 
+#define MAX_THREADS 26
 
 bool ejectDiskWINAPI(TCHAR driveLetter[]);
 bool actionDiskMCI(TCHAR driveLetter[], DWORD action);
