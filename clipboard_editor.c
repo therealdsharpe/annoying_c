@@ -1,7 +1,5 @@
 #SIMPLY REPLACES THE CLIPBOARD DATA WITH A HTTP LINK
 #TODO: Modify only urls, even if the text is "aaaaa http://foo.bar/b/bb ccc"
-// clipboard_link_replacer.cpp : Defines the entry point for the console application.
-//
 
 #include <Windows.h>
 #pragma warning(disable:4996)
